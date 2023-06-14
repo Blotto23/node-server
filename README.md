@@ -1,0 +1,5 @@
+Al utilizar async/await, podemos utilizar la palabra clave await antes de las funciones que retornan promesas para esperar a que se resuelvan antes de continuar con la ejecución del código, Tambien me di cuenta que no se puede usar el metodo await sin el async, mientras que el async si se puede usar sin declarar o usar el await. 
+
+Al utilizar el método then(), se pueden encadenar llamadas a las funciones para que retornen promesas y proporcionen las funciones para la devolución de la llamada que se ejecutan cuando las promesas se resuelvan o se rechacen.
+
+La principal diferencia entre async/await y el método then() es la forma de escribirlo y la estructura del código. async/await proporciona una forma más intuitiva de esperar a que las promesas se resuelvan. Por otro lado el método then(), utiliza un enfoque basado en funciones de devolución de llamada, lo que puede resultar en una estructura un poco más compleja y dificil de entender.
